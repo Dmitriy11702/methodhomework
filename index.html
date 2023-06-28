@@ -61,54 +61,65 @@
         <li><a href="/assets/neon-style.html">Neon Style</a></li>
       </ol>
     </div>
-    <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
-      
-      <fieldset>
-        <h1>Забронировать</h1>
+    <div>
+      <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <b>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</b>
+        <fieldset>
+          <h2>Выберите зал</h2>
           <input type="radio" name="room" value="vibes"> 80`s vibes
-          <input type="radio" name ="room" value="starwars">  Star Wars
+          <input type="radio" name="room" value="starwars"> Star Wars
           <input type="radio" name="room" value="wildwest"> Wild west
           <input type="radio" name="room" value="neonstyle"> Neon Style
-      </fieldset>
-      
-      <fieldset>
-        <legend><span>Собери набор развлечений</span></legend>
-        <fieldset>
-            <legend><span>Приставка:</span></legend>
-              <input type="radio" name="pristavka" value="PS"> Playstation
-              <input type="radio" name="pristavka" value="Sega">  Sega Mega Drive
-              <input type="radio" name="pristavka" value="XBOX"> X-box One S
-              <input type="radio" name="pristavka" value="Dendy"> Dendy
-        </fieldset> 
+        </fieldset>
 
         <fieldset>
-            <legend><span>Настольные игры:</span></legend>
-              <input type="checkbox" name="jenga"> Jenga
-              <input type="checkbox" name ="monopoly">  Monopoly
-              <input type="checkbox" name="manchkin"> Манчкин
-              <input type="checkbox" name="alias"> Alias
-        </fieldset> 
-        
+          <legend>
+            <h2>Собери набор развлечений</h2>
+          </legend>
+          <fieldset>
+            <legend>
+              <h2>Приставка:</h2>
+            </legend>
+            <input type="radio" name="pristavka" value="PS"> Playstation
+            <input type="radio" name="pristavka" value="Sega"> Sega Mega Drive
+            <input type="radio" name="pristavka" value="XBOX"> X-box One S
+            <input type="radio" name="pristavka" value="Dendy"> Dendy
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              <h2>Настольные игры:</h2>
+            </legend>
+            <input type="checkbox" name="jenga"> Jenga
+            <input type="checkbox" name="monopoly"> Monopoly
+            <input type="checkbox" name="manchkin"> Манчкин
+            <input type="checkbox" name="alias"> Alias
+          </fieldset>
+
+          <fieldset>
+            <legend>
+              <h2>Дополнительно:</h2>
+            </legend>
+            <input type="radio" name="any" value="song"> Караоке
+            <input type="radio" name="any" value="vr"> VR
+          </fieldset>
+
+        </fieldset>
+
         <fieldset>
-            <legend><span>Дополнительно:</span></legend>
-              <input type="radio" name="any" value="song"> Караоке
-              <input type="radio" name ="any" value="vr"> VR
-        </fieldset> 
-
-      </fieldset>
-
-      <fieldset>
-        <legend>Выбери дату и время</legend>
+          <legend>Выбери дату и время</legend>
           <p>Дата <input type="date" required> Время <input type="time" required> </p>
           <p> Количество человек <input type="number" max="12" required> </p>
           <p> Имя <input type="text" required> </p>
           <p>Фамилия <input type="text" required> </p>
-          <p>Номер телефона <input type="tel" maxlength="10" required> </p> 
+          <p>Номер телефона <input type="tel" maxlength="10" required> </p>
           <input type="checkbox" required> Я старше 18 лет
-      </fieldset>
-      <button type="submit">Забронировать</button>
-      <input type="checkbox" required> Согласен на обработку данных
-    </form>
+        </fieldset>
+
+        <button type="submit">Забронировать</button>
+        <input type="checkbox" required> Согласен на обработку данных
+      </form>
+    </div>
     <div class="block" id="about">
       <h2>О нас</h2>
       <p>Для наших гостей мы создали коцнцептуально новое игровое пространство виртуальной реальности в центральной
@@ -119,6 +130,24 @@
         <p><b>GAME OVER -</b> Это место не забываемых впечатлений</p>
         <p><i>Аркадий Абашкин, создатель игровой территории GAME OVER</i></p>
       </blockquote>
+    </div>|
+    <div>
+      <h2>Отзывы</h2>
+      <figure> <img src="" alt="">
+        <figcaption> Макс Самойлов</figcaption>
+      </figure>
+      <p>Отмечали здень день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда ещё я
+        не был в таком игровом погружении. Сервис на высоте!</p>
+      <figure> <img src="" alt="">
+        <figcaption>Ольга Григорьевна</figcaption>
+      </figure>
+      <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет
+        подобных заведений</p>
+      <figure> <img src="" alt="">
+        <figcaption>Никита Ященко</figcaption>
+      </figure>
+      <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в
+        атмосферу космоса</p>
     </div>
     <div class="block" id="contact">
       <H2>Контакты</H2>
