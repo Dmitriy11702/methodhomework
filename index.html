@@ -3,162 +3,167 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/style.css">
   <link type="image/svg+xml" rel="icon" href="/img/icon.svg">
   <title>GO</title>
 </head>
 
 <body>
-  <div>
-    <figure>
-      <img src="/img/logo.svg" alt="logo: GO">
-    </figure>
+  <div class="wrapper">
     <div>
-      <h2>Меню</h2>
-      <ul>
-        <li><a href="#halls">Залы</a></li>
-        <li><a href="#about">О нас</a></li>
-        <li><a href="#contact">Бронь</a></li>
-        <li><a href="#contact">Отзывы</a></li>
-        <li><a href="#contact">Контакты</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2>У нас есть всё для классного отдыха с друзьями!</h2>
-      <ul>
-        <li>
-          <figure><img src="/img/vr.jpg" alt="VR"></figure>
-          <blockquote>VR очки
-          </blockquote>
-        </li>
-        <li>
-          <figure><img src="/img/audio.jpg" alt="audio"></figure>
-          <blockquote>Аудио-система 5.1 с отличным звуком</blockquote>
-        </li>
-        <li>
-          <figure><img src="/img/micro.jpg" alt="micro"></figure>
-          <blockquote>Караоке (4 микрофона)</blockquote>
-        </li>
-        <li>
-          <figure><img src="/img/game.jpg" alt="game"></figure>
-          <blockquote>Настольные игры</blockquote>
-        </li>
-        <li>
-          <figure><img src="/img/netflix.jpg" alt="netflix"></figure>
-          <blockquote>Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko</blockquote>
-        </li>
-        <li>
-          <figure><img src="/img/sony.jpg" alt="PS5"></figure>
-          <blockquote>PlayStation 5</blockquote>
-        </li>
-      </ul>
-    </div>
-    <div class="block" id="halls">
-      <h2>Наши Залы</h2>
-      <ol>
-        <li><a href="/assets/vibes.html"> 80`s vibes</a></li>
-        <li><a href="/assets/star-wars.html">Star Wars</a></li>
-        <li><a href="/assets/wild-west.html">Wild west</a></li>
-        <li><a href="/assets/neon-style.html">Neon Style</a></li>
-      </ol>
-    </div>
-    <div>
-      <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
-        <b>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</b>
-        <fieldset>
-          <h2>Выберите зал</h2>
-          <input type="radio" name="room" value="vibes"> 80`s vibes
-          <input type="radio" name="room" value="starwars"> Star Wars
-          <input type="radio" name="room" value="wildwest"> Wild west
-          <input type="radio" name="room" value="neonstyle"> Neon Style
-        </fieldset>
-
-        <fieldset>
-          <legend>
-            <h2>Собери набор развлечений</h2>
-          </legend>
+      <figure>
+        <img src="/img/logo.svg" alt="logo: GO">
+      </figure>
+      <div>
+        <h2>Меню</h2>
+        <ul>
+          <li><a href="#halls">Залы</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contact">Бронь</a></li>
+          <li><a href="#contact">Отзывы</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>У нас есть всё для классного отдыха с друзьями!</h2>
+        <ul>
+          <li>
+            <figure><img src="/img/vr.jpg" alt="VR"></figure>
+            <blockquote>VR очки
+            </blockquote>
+          </li>
+          <li>
+            <figure><img src="/img/audio.jpg" alt="audio"></figure>
+            <blockquote>Аудио-система 5.1 с отличным звуком</blockquote>
+          </li>
+          <li>
+            <figure><img src="/img/micro.jpg" alt="micro"></figure>
+            <blockquote>Караоке (4 микрофона)</blockquote>
+          </li>
+          <li>
+            <figure><img src="/img/game.jpg" alt="game"></figure>
+            <blockquote>Настольные игры</blockquote>
+          </li>
+          <li>
+            <figure><img src="/img/netflix.jpg" alt="netflix"></figure>
+            <blockquote>Кино сервисы Netflix, IVI, MegoGo, Кинопоиск, Okko</blockquote>
+          </li>
+          <li>
+            <figure><img src="/img/sony.jpg" alt="PS5"></figure>
+            <blockquote>PlayStation 5</blockquote>
+          </li>
+        </ul>
+      </div>
+      <div class="block" id="halls">
+        <h2>Наши Залы</h2>
+        <ol>
+          <li><a href="/assets/vibes.html"> 80`s vibes</a></li>
+          <li><a href="/assets/star-wars.html">Star Wars</a></li>
+          <li><a href="/assets/wild-west.html">Wild west</a></li>
+          <li><a href="/assets/neon-style.html">Neon Style</a></li>
+        </ol>
+      </div>
+      <div>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <b>ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</b>
           <fieldset>
-            <legend>
-              <h2>Приставка:</h2>
-            </legend>
-            <input type="radio" name="pristavka" value="PS"> Playstation
-            <input type="radio" name="pristavka" value="Sega"> Sega Mega Drive
-            <input type="radio" name="pristavka" value="XBOX"> X-box One S
-            <input type="radio" name="pristavka" value="Dendy"> Dendy
+            <h2>Выберите зал</h2>
+            <input type="radio" name="room" value="vibes"> 80`s vibes
+            <input type="radio" name="room" value="starwars"> Star Wars
+            <input type="radio" name="room" value="wildwest"> Wild west
+            <input type="radio" name="room" value="neonstyle"> Neon Style
           </fieldset>
 
           <fieldset>
             <legend>
-              <h2>Настольные игры:</h2>
+              <h2>Собери набор развлечений</h2>
             </legend>
-            <input type="checkbox" name="jenga"> Jenga
-            <input type="checkbox" name="monopoly"> Monopoly
-            <input type="checkbox" name="manchkin"> Манчкин
-            <input type="checkbox" name="alias"> Alias
+            <fieldset>
+              <legend>
+                <h2>Приставка:</h2>
+              </legend>
+              <input type="radio" name="pristavka" value="PS"> Playstation
+              <input type="radio" name="pristavka" value="Sega"> Sega Mega Drive
+              <input type="radio" name="pristavka" value="XBOX"> X-box One S
+              <input type="radio" name="pristavka" value="Dendy"> Dendy
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                <h2>Настольные игры:</h2>
+              </legend>
+              <input type="checkbox" name="jenga"> Jenga
+              <input type="checkbox" name="monopoly"> Monopoly
+              <input type="checkbox" name="manchkin"> Манчкин
+              <input type="checkbox" name="alias"> Alias
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                <h2>Дополнительно:</h2>
+              </legend>
+              <input type="radio" name="any" value="song"> Караоке
+              <input type="radio" name="any" value="vr"> VR
+            </fieldset>
+
           </fieldset>
 
           <fieldset>
-            <legend>
-              <h2>Дополнительно:</h2>
-            </legend>
-            <input type="radio" name="any" value="song"> Караоке
-            <input type="radio" name="any" value="vr"> VR
+            <legend>Выбери дату и время</legend>
+            <p>Дата <input type="date" required> Время <input type="time" required> </p>
+            <p> Количество человек <input type="number" max="12" required> </p>
+            <p> Имя <input type="text" required> </p>
+            <p>Фамилия <input type="text" required> </p>
+            <p>Номер телефона <input type="tel" maxlength="10" required> </p>
+            <input type="checkbox" required> Я старше 18 лет
           </fieldset>
 
-        </fieldset>
-
-        <fieldset>
-          <legend>Выбери дату и время</legend>
-          <p>Дата <input type="date" required> Время <input type="time" required> </p>
-          <p> Количество человек <input type="number" max="12" required> </p>
-          <p> Имя <input type="text" required> </p>
-          <p>Фамилия <input type="text" required> </p>
-          <p>Номер телефона <input type="tel" maxlength="10" required> </p>
-          <input type="checkbox" required> Я старше 18 лет
-        </fieldset>
-
-        <button type="submit">Забронировать</button>
-        <input type="checkbox" required> Согласен на обработку данных
-      </form>
-    </div>
-    <div class="block" id="about">
-      <h2>О нас</h2>
-      <p>Для наших гостей мы создали коцнцептуально новое игровое пространство виртуальной реальности в центральной
-        части города.</p>
-      <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
-        разработками со всего мира.</p>
-      <blockquote>
-        <p><b>GAME OVER -</b> Это место не забываемых впечатлений</p>
-        <p><i>Аркадий Абашкин, создатель игровой территории GAME OVER</i></p>
-      </blockquote>
-    </div>|
-    <div>
-      <h2>Отзывы</h2>
-      <figure> <img src="" alt="">
-        <figcaption> Макс Самойлов</figcaption>
-      </figure>
-      <p>Отмечали здень день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда ещё я
-        не был в таком игровом погружении. Сервис на высоте!</p>
-      <figure> <img src="" alt="">
-        <figcaption>Ольга Григорьевна</figcaption>
-      </figure>
-      <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше нет
-        подобных заведений</p>
-      <figure> <img src="" alt="">
-        <figcaption>Никита Ященко</figcaption>
-      </figure>
-      <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в
-        атмосферу космоса</p>
-    </div>
-    <div class="block" id="contact">
-      <H2>Контакты</H2>
-      <p>г.Москва ул. Аквамарина, 16</p>
-      <a href="tel:89509302893">8(950)930-28-93</a>
-      <br>
-      <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
-      <ul>
-        <li><a href="https://vk.com/1normik1">Vkontakte</a></li>
-        <li><a href="https://t.me/norm1kXx">Telegram</a></li>
-      </ul>
+          <button type="submit">Забронировать</button>
+          <input type="checkbox" required> Согласен на обработку данных
+        </form>
+      </div>
+      <div class="block" id="about">
+        <h2>О нас</h2>
+        <p>Для наших гостей мы создали коцнцептуально новое игровое пространство виртуальной реальности в центральной
+          части города.</p>
+        <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
+          разработками со всего мира.</p>
+        <blockquote>
+          <p><b>GAME OVER -</b> Это место не забываемых впечатлений</p>
+          <p class="quote"><i>Аркадий Абашкин, создатель игровой территории GAME OVER</i></p>
+        </blockquote>
+      </div>
+      <div>
+        <h2>Отзывы</h2>
+        <figure> <img width="250" height="200" src="/img/45c25fc9f6e9077fe021d552b93a870f.jpg" alt="">
+          <figcaption> Макс Самойлов</figcaption>
+        </figure>
+        <p>Отмечали здень день рождения с компанией друзей, все было очень круто! VR очки это просто бомба, никогда ещё
+          я
+          не был в таком игровом погружении. Сервис на высоте!</p>
+        <figure> <img width="250" height="200" src="img/dmitry-arhar-polina-devushka-vzgliad-dzhinsovka.jpg" alt="">
+          <figcaption>Ольга Григорьевна</figcaption>
+        </figure>
+        <p>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! У нас в городе больше
+          нет
+          подобных заведений</p>
+        <figure> <img width="250" height="200" src="img/18.jpg" alt="">
+          <figcaption>Никита Ященко</figcaption>
+        </figure>
+        <p>Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле звездных войн, попал в
+          атмосферу космоса</p>
+      </div>
+      <div class="block" id="contact">
+        <H2>Контакты</H2>
+        <p>г.Москва ул. Аквамарина, 16</p>
+        <a href="tel:89509302893">8(950)930-28-93</a>
+        <br>
+        <a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+        <ul>
+          <li><a href="https://vk.com/1normik1">Vkontakte</a></li>
+          <li><a href="https://t.me/norm1kXx">Telegram</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
